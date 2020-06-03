@@ -40,7 +40,7 @@ df2.head() #Visualización
 #Consulta a través de https://opendata.aemet.es/, almacenamiento y preprocesamiento posterior (compatible con excel).
 
 chunks = []
- for chunk in pd.read_csv('D:\\CS PC MAXI\\Documentos\\ETSII\\TFG\\API\\AEMET\\reportesAEMET(reducido).csv', chunksize=2000000, low_memory=False,sep=';'):
+ for chunk in pd.read_csv('C:\\MYPATH\\TFG\\API\\AEMET\\reportesAEMET(reducido).csv', chunksize=2000000, low_memory=False,sep=';'):
     chunks.append(chunk)
 meteo = pd.concat(chunks, axis=0)
 
@@ -62,7 +62,7 @@ df=pd.merge(df,meteo) #Asociación entre desplazamientos y registros meteo de AE
 
 df=df.drop_duplicates() #Supresión de registros duplicados
 
-df.to_csv('D:\\CS PC MAXI\\Documentos\\ETSII\\TFG\\Datos\\DataSet\\DatosGlobaltrymeteo.csv', encoding='utf-8', index=False, sep=';')
+df.to_csv('C:\\MYPATH\\TFG\\Datos\\DataSet\\DatosGlobaltrymeteo.csv', encoding='utf-8', index=False, sep=';')
 
 
 
