@@ -15,7 +15,7 @@ pd.set_option('display.max_rows', 500)
 
 #Lectura de CSV donde se alamacenan los registros completos
 chunks = []
- for chunk in pd.read_csv('D:\\CS PC MAXI\\Documentos\\ETSII\\TFG\\Datos\\DataSet\\completo_desplazamientoORSmeteo_v1.csv', sep=',', chunksize=2000000, low_memory=False):
+ for chunk in pd.read_csv('C:\\MYPATH\\TFG\\Datos\\DataSet\\completo_desplazamientoORSmeteo_v1.csv', sep=',', chunksize=2000000, low_memory=False):
     chunks.append(chunk)
 df = pd.concat(chunks, axis=0)
 #df['unplug_hourTime']=pd.to_datetime(df['unplug_hourTime'], utc=False)
