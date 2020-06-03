@@ -10,4 +10,4 @@ La documentación depositada en este repositorio corresponde al Trabajo Fin de G
   El presente trabajo se presenta como una propuesta de de modelo predictivo de la demanda del servicio de público de bicicleta BiciMAD, en el cual se incluyen lecciones aprendidas, se sugieren líneas de trabajo y de mejora a desarrollar. Cualquier contribución de la comunidad será bienvenida :)
 
 
-(Gihub)=(http:\\google.com)
+[GitHub](http://github.com)
