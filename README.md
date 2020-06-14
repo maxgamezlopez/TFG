@@ -1,7 +1,9 @@
 # Aplicación de técnicas de minería de datos sobre registros de operaciones del sistema de alquiler público de bicicletas de Madrid (BiciMAD)
 La documentación depositada en este repositorio corresponde al Trabajo Fin de Grado con el título que se indica. Asociados al mismo se encuentra:
   - Memoria del trabajo: archivo formal donde se documenta metodología y procesos empleados.
-  - Códigos Scripts en Python empleados para el desarrollo del trabajo.
+  - Líneas de código (Scripts) en Python empleados para el desarrollo del trabajo.
+  - Conjuntos de datos que se referencian en el código.
+  - Modelos predictivos desarrollados.
   - Enlaces a los datos abiertos empleados para el mismo.
   - Enlaces a las fuentes complementarias empleadas.
   
